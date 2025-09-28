@@ -1,0 +1,14 @@
+/*
+Theme Name: Legends of the Park
+Theme URI: https://legendsofthepark.example.com
+Author: Kenneth Himmel & Legends of the Park
+Author URI: https://legendsofthepark.example.com
+Description: A Discord-inspired community theme for Legends of the Park, celebrating Nevada parks with chat-first layouts and vibrant nature colors.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: legends-of-the-park
+*/
+
+/* Import main theme styles */
+@import url('assets/css/main.css');
