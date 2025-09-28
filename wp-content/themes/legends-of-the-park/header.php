@@ -19,26 +19,22 @@
 <?php if ( has_custom_logo() ) : ?>
 <?php the_custom_logo(); ?>
 <?php else : ?>
-<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/discord-leaf.svg' ); ?>" alt="Discord Leaf Icon" />
+<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/discord-leaf.svg' ); ?>" alt="Legends of the Park badge" />
 <?php endif; ?>
 </a>
 <div>
-<span class="badge green"><?php esc_html_e( 'Legends of the Park', 'legends-of-the-park' ); ?></span>
+<span class="badge green"><?php esc_html_e( 'Static Nevada Field Guide', 'legends-of-the-park' ); ?></span>
 <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+<p class="site-description"><?php esc_html_e( 'View-only WordPress theme featuring every division and park in Legends of the Park.', 'legends-of-the-park' ); ?></p>
 </div>
 </div>
 <nav class="nav-primary" aria-label="<?php esc_attr_e( 'Primary navigation', 'legends-of-the-park' ); ?>">
-<?php
-wp_nav_menu(
-array(
-'theme_location' => 'primary',
-'container'      => false,
-'menu_class'     => 'menu menu--primary',
-'fallback_cb'    => '__return_false',
-)
-);
-?>
+<ul>
+<li><a href="#top"><?php esc_html_e( 'Home', 'legends-of-the-park' ); ?></a></li>
+<li><a href="#divisions"><?php esc_html_e( 'Divisions', 'legends-of-the-park' ); ?></a></li>
+<li><a href="#parks"><?php esc_html_e( 'Parks', 'legends-of-the-park' ); ?></a></li>
+<li><a href="#about"><?php esc_html_e( 'About', 'legends-of-the-park' ); ?></a></li>
+</ul>
 </nav>
 </header>
 <main id="primary" class="site-main">

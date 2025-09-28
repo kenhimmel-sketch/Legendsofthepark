@@ -8,34 +8,25 @@
 </main>
 <footer class="site-footer">
 <div class="footer">
-<div class="grid columns-3">
+<div class="footer-grid">
 <div>
-<h3><?php esc_html_e( 'Join Our Discord', 'legends-of-the-park' ); ?></h3>
-<p><?php esc_html_e( 'Jump into live park chatter, vote on park champions, and find event voice chats.', 'legends-of-the-park' ); ?></p>
-<a class="button-secondary" href="https://discord.gg/25bXKqSN" target="_blank" rel="noopener">
-<span aria-hidden="true">#</span>
-<span><?php esc_html_e( 'Join Legends of the Park Discord', 'legends-of-the-park' ); ?></span>
-</a>
+<h3><?php esc_html_e( 'Why Static?', 'legends-of-the-park' ); ?></h3>
+<p><?php esc_html_e( 'This build serves fast, reliable HTML. Every layout, image, and map embed is baked into the theme so anyone can explore without signups or loading delays.', 'legends-of-the-park' ); ?></p>
 </div>
 <div>
-<h3><?php esc_html_e( 'Upcoming Events', 'legends-of-the-park' ); ?></h3>
-<?php dynamic_sidebar( 'footer-1' ); ?>
-</div>
-<div>
-<h3><?php esc_html_e( 'Stay Connected', 'legends-of-the-park' ); ?></h3>
+<h3><?php esc_html_e( 'Explore Quickly', 'legends-of-the-park' ); ?></h3>
 <ul class="card-list">
-<li data-lop-filterable>
-<a href="https://discord.gg/25bXKqSN" rel="noopener" target="_blank">Discord</a>
-</li>
-<li data-lop-filterable>
-<a href="mailto:hello@legendsofthepark.com">hello@legendsofthepark.com</a>
-</li>
+<li><a href="#divisions"><?php esc_html_e( 'Browse divisions', 'legends-of-the-park' ); ?></a></li>
+<li><a href="#parks"><?php esc_html_e( 'Jump to all parks', 'legends-of-the-park' ); ?></a></li>
+<li><a href="#about"><?php esc_html_e( 'Learn how the guide works', 'legends-of-the-park' ); ?></a></li>
 </ul>
 </div>
+<div>
+<h3><?php esc_html_e( 'Credits', 'legends-of-the-park' ); ?></h3>
+<p><?php esc_html_e( 'Created by Kenneth Himmel and the Legends of the Park community to spotlight Nevada’s outdoor gems.', 'legends-of-the-park' ); ?></p>
 </div>
-<p class="site-info">
-&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'Founded by Kenneth Himmel for Nevada residents who love their neighborhood parks.', 'legends-of-the-park' ); ?>
-</p>
+</div>
+<p class="site-info">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'All content is provided for inspiration and trip planning.', 'legends-of-the-park' ); ?></p>
 </div>
 </footer>
 <?php wp_footer(); ?>
