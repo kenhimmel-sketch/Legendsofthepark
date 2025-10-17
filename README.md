@@ -1,15 +1,15 @@
 # Legends of the Park
 
-Discord-inspired WordPress experience for Nevada park lovers. This repository ships a bespoke theme and membership plugin that bring Kenneth Himmel’s Legends of the Park community to life with Champions Month competitions, park directories, and Discord integrations.
+Static flag football operations hub for Nevada captains. This repository ships a bespoke WordPress theme and membership plugin that powers schedules, scouting intel, and training programs for the Legends of the Park flag football league.
 
 ## Repository Layout
 
 ```
 wp-content/
 ├── plugins/
-│   └── legends-of-the-park-membership/    # Custom membership, parks, champions, events, and Discord tools
+│   └── legends-of-the-park-membership/    # Custom league data, registration tools, and shortcodes
 └── themes/
-    └── legends-of-the-park/               # Front-end theme styled like Discord with park imagery
+    └── legends-of-the-park/               # Front-end theme styled like a night-game command center
 ```
 
 ## Prerequisites
@@ -24,54 +24,54 @@ wp-content/
 2. Clone this repository into your WordPress directory (`wp-content` will merge with the existing directory).
 3. Activate the **Legends of the Park** theme from Appearance → Themes.
 4. Activate the **Legends of the Park Membership** plugin from Plugins.
-5. Visit **Legends of the Park → Control Center** in the admin dashboard to review seeded parks and configure Champions Month content.
+5. Visit **Legends of the Park → Control Center** in the admin dashboard to review division rosters and configure weekly schedules.
 
 ### Optional Setup
 
-* Create a page using the “Champions Month” template for July competitions.
-* Add the `[lop_events_feed]` shortcode to any page to surface the event calendar.
-* Populate **Events** and **Champions** custom post types with real stories, Discord RSVP links, and July winners.
+* Create a page using the “Champions Month” template for spotlight events.
+* Add the `[lop_registration_form]` shortcode to capture team registrations and waivers.
+* Populate **Events** and **Champions** custom post types with matchup recaps, Discord RSVP links, and highlight reels.
 
 ## Shortcodes
 
 | Shortcode | Description |
 |-----------|-------------|
-| `[lop_registration_form]` | Front-end membership signup with park, skills, and sports fields. |
-| `[lop_member_profile]` | Logged-in user profile with Discord badges and park uploads. |
-| `[lop_champions_leaderboard]` | Division leaderboard displaying champion posts. |
-| `[lop_parks_directory]` | Searchable grid of Nevada parks grouped by division. |
-| `[lop_competition_signup]` | Champions Month RSVP form that creates pending entries for admin approval. |
-| `[lop_events_feed]` | Upcoming events list with Discord RSVP buttons. |
-| `[lop_park_members]` | List of members who favor the current park (use on single park templates). |
-| `[lop_park_champions]` | Champions associated with the current park. |
+| `[lop_registration_form]` | Front-end membership signup with roster, captains, and division preferences. |
+| `[lop_member_profile]` | Logged-in team hub with Discord badges and document uploads. |
+| `[lop_champions_leaderboard]` | Division leaderboard displaying championship points. |
+| `[lop_parks_directory]` | Searchable grid of training facilities and team amenities. |
+| `[lop_competition_signup]` | RSVP form for scrimmages and showcase events. |
+| `[lop_events_feed]` | Upcoming games list with kickoff times and volunteer needs. |
+| `[lop_park_members]` | List of members who favor the current training venue. |
+| `[lop_park_champions]` | Champions associated with the current division. |
 
 ## Discord Integrations
 
 * Global “Join Our Discord” buttons link to `https://discord.gg/25bXKqSN`.
-* Profile forms store Discord handles and surface share buttons.
-* Events include RSVP links to Discord voice chats for live coordination.
+* Registration forms store Discord handles and surface scrimmage coordination links.
+* Events include RSVP links to Discord voice chats for gameday logistics.
 
-## Elementor & Gutenberg Support
+## Clinics & Player Development
 
-* The theme registers Discord-colored palettes and editor styles for Gutenberg.
-* Use Elementor sections/widgets to compose chat-inspired layouts that inherit the theme styling.
+* The theme highlights weekly clinics and downloadable playbooks.
+* Mentorship pairings, SafeSport certifications, and film-room resources are surfaced in the Training section.
 
 ## Security Notes
 
-* Nonces protect member registration, profile uploads, and competition signups.
+* Nonces protect member registration, roster uploads, and competition signups.
 * User uploads are limited to images and capped to the latest 12 submissions per member.
 
-## Champions Month Workflow
+## Season Workflow
 
-1. Members register and select their park, skills, and sports.
-2. Admins publish July **Events** with Discord RSVP links.
-3. Members submit `[lop_competition_signup]` forms; entries appear pending for review.
-4. Admins approve winners via the **Champions** post type which powers leaderboards.
-5. Parks and champions display Discord discussion links to keep the community chatting.
+1. Captains register squads, choose divisions, and upload waivers.
+2. Admins publish weekly **Events** with Discord RSVP links.
+3. Teams confirm `[lop_competition_signup]` entries; commissioners approve volunteer assignments.
+4. Match recaps and stats feed the **Champions** leaderboard.
+5. Clinics and scouting links keep teams improving between game nights.
 
 ## Quality Checks
 
-Run the lightweight PHP smoke tests to verify seeded data and theming palettes remain intact after making changes:
+Run the lightweight PHP smoke tests to verify league data and theming palettes remain intact after making changes:
 
 ```bash
 php -l wp-content/plugins/legends-of-the-park-membership/legends-of-the-park-membership.php
@@ -79,4 +79,4 @@ php tests/parks_data_test.php
 php tests/theme_palette_test.php
 ```
 
-The first command performs a syntax check, while the latter scripts confirm that the Nevada park seed file retains 20+ fully-detailed entries and that the theme CSS continues to ship the emerald, sunset, and blue Discord-inspired palette required by the project brief.
+The first command performs a syntax check, while the latter scripts confirm that the league seed file retains 20+ fully-detailed entries and that the theme CSS continues to ship the emerald, sunset, and blue palette required by the project brief.

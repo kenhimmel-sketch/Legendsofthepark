@@ -1,117 +1,117 @@
 <?php
 /**
- * Seed data for Nevada parks grouped by city divisions.
+ * Seed data for Legends of the Park flag football teams grouped by division.
  *
  * @package Legends_Of_The_Park_Membership
  */
 
 return array(
-    'Las Vegas Division' => array(
+    'Pro-Am Division' => array(
         array(
-            'name'      => 'Desert Breeze Park',
-            'location'  => '8275 Spring Mountain Rd, Las Vegas, NV',
-            'amenities' => 'Trails, splash pad, skate park, soccer fields',
+            'name'      => 'Sunset Strikers',
+            'location'  => 'Starburst Park Stadium • Las Vegas, NV',
+            'amenities' => 'Tempo offense, hybrid coverage, Catapult trackers',
         ),
         array(
-            'name'      => 'Lorenzi Park',
-            'location'  => '3333 W Washington Ave, Las Vegas, NV',
-            'amenities' => 'Lake loop, picnic areas, sports courts',
+            'name'      => 'Neon Knights',
+            'location'  => 'Starburst Park Practice Fields • Las Vegas, NV',
+            'amenities' => 'Empty backfield sets, disguised blitzes, recovery lounge',
         ),
         array(
-            'name'      => 'Sunset Park',
-            'location'  => '2601 E Sunset Rd, Las Vegas, NV',
-            'amenities' => 'Disc golf, volleyball, fishing lagoon',
+            'name'      => 'Mirage Monarchs',
+            'location'  => 'Sunset Ridge Complex • Las Vegas, NV',
+            'amenities' => 'RPO installs, red-zone labs, positional film room',
         ),
         array(
-            'name'      => 'Mullins Park',
-            'location'  => '5800 E Washburn Rd, Las Vegas, NV',
-            'amenities' => 'Baseball diamonds, open green, playground',
+            'name'      => 'Las Vegas Legends',
+            'location'  => 'Civic Center Turf • Las Vegas, NV',
+            'amenities' => 'Timing-based routes, leadership council, recovery station',
         ),
         array(
-            'name'      => 'Pavilion Center Park',
-            'location'  => '101 S Pavilion Center Dr, Las Vegas, NV',
-            'amenities' => 'Walking paths, basketball, picnic tables',
-        ),
-    ),
-    'Henderson Division' => array(
-        array(
-            'name'      => 'Acacia Park',
-            'location'  => '50 Casa Del Fuego St, Henderson, NV',
-            'amenities' => 'Botanical gardens, splash area, playground',
-        ),
-        array(
-            'name'      => 'Anthem Hills Park',
-            'location'  => '2256 N Reunion Dr, Henderson, NV',
-            'amenities' => 'Trails, skate park, baseball, dog park',
-        ),
-        array(
-            'name'      => 'Cornerstone Park',
-            'location'  => '1600 Wigwam Pkwy, Henderson, NV',
-            'amenities' => 'Lake, boardwalk, fitness stations',
-        ),
-        array(
-            'name'      => 'Mission Hills Park',
-            'location'  => '551 E Mission Dr, Henderson, NV',
-            'amenities' => 'Baseball complex, tennis, shaded play area',
-        ),
-        array(
-            'name'      => 'Whitney Ranch Recreation Center',
-            'location'  => '1575 Galleria Dr, Henderson, NV',
-            'amenities' => 'Indoor pool, fitness center, classes',
+            'name'      => 'Silver Blitz',
+            'location'  => 'Summerlin Gridiron • Las Vegas, NV',
+            'amenities' => 'Press coverage pods, mesh install, special teams bay',
         ),
     ),
-    'Reno Division' => array(
+    'Open Division' => array(
         array(
-            'name'      => 'Idlewild Park',
-            'location'  => '2055 Idlewild Dr, Reno, NV',
-            'amenities' => 'Riverfront trails, rose garden, playgrounds',
+            'name'      => 'Silver State Cyclones',
+            'location'  => 'Heritage Gridiron Complex • Henderson, NV',
+            'amenities' => 'Spread playbook, motion scripts, captain mentorship',
         ),
         array(
-            'name'      => 'Rancho San Rafael Regional Park',
-            'location'  => '1595 N Sierra St, Reno, NV',
-            'amenities' => 'Arboretum, nature trails, museums',
+            'name'      => 'Desert Vipers',
+            'location'  => 'Anthem Community Fields • Henderson, NV',
+            'amenities' => 'Zone disguise lab, turnover tracking, cooldown lounge',
         ),
         array(
-            'name'      => 'McKinley Park',
-            'location'  => '925 Riverside Dr, Reno, NV',
-            'amenities' => 'River path, amphitheater, dog park',
+            'name'      => 'Valley Comets',
+            'location'  => 'Cornerstone Turf • Henderson, NV',
+            'amenities' => 'Option installs, agility ladders, nutrition briefings',
         ),
         array(
-            'name'      => 'Magic Carpet Playground',
-            'location'  => '1900 Idlewild Dr, Reno, NV',
-            'amenities' => 'Accessible play structures, picnic lawns',
+            'name'      => 'Mojave Mavericks',
+            'location'  => 'Cadence Park Fields • Henderson, NV',
+            'amenities' => 'Trick play sessions, sideline DJ booth, hydration carts',
         ),
         array(
-            'name'      => 'Evelyn Mount Northeast Park',
-            'location'  => '1200 N Sullivan Ln, Reno, NV',
-            'amenities' => 'Sports fields, fitness trail, playground',
+            'name'      => 'Cactus Reign',
+            'location'  => 'Whitney Ranch Turf • Henderson, NV',
+            'amenities' => 'Clock management clinic, defensive pursuit pods, team huddle tent',
         ),
     ),
-    'Carson City Division' => array(
+    'Women’s Elevate Division' => array(
         array(
-            'name'      => 'Mills Park',
-            'location'  => '1111 E William St, Carson City, NV',
-            'amenities' => 'Railroad museum, picnic shelters, skate park',
+            'name'      => 'Wildflower Warriors',
+            'location'  => 'Legends Practice Fields • North Las Vegas, NV',
+            'amenities' => 'Ball skills lab, mentorship lounge, leadership workshops',
         ),
         array(
-            'name'      => 'Governor’s Field Park',
-            'location'  => '500 E Evalyn Dr, Carson City, NV',
-            'amenities' => 'Baseball complex, batting cages, picnic areas',
+            'name'      => 'Mojave Mermaids',
+            'location'  => 'Craig Ranch Regional Park • North Las Vegas, NV',
+            'amenities' => 'Dual-quarterback installs, tempo circuit, recovery yoga',
         ),
         array(
-            'name'      => 'Centennial Park',
-            'location'  => '5400 Heritage Way, Carson City, NV',
-            'amenities' => 'Mountain biking, archery range, sports fields',
+            'name'      => 'Sierra Sirens',
+            'location'  => 'Cheyenne Sports Complex • North Las Vegas, NV',
+            'amenities' => 'Route timing bay, pursuit clinics, community childcare',
         ),
         array(
-            'name'      => 'Empire Ranch Golf Course Park',
-            'location'  => '1875 Fair Way, Carson City, NV',
-            'amenities' => 'Riverfront paths, golf views, open lawns',
+            'name'      => 'Neon Valkyries',
+            'location'  => 'Tule Springs Regional Park • North Las Vegas, NV',
+            'amenities' => 'Vertical passing drills, sideline comms lab, film study den',
         ),
         array(
-            'name'      => 'Carson Riverwalk Park',
-            'location'  => '501 S Carson St, Carson City, NV',
-            'amenities' => 'River trail, wildlife viewing, picnic tables',
+            'name'      => 'Vegas Phoenix',
+            'location'  => 'Kellogg Zaher Sports Complex • Las Vegas, NV',
+            'amenities' => 'Blitz timing pods, special teams hustle zone, culture huddles',
+        ),
+    ),
+    'Rising Stars Division' => array(
+        array(
+            'name'      => 'Future Flyers',
+            'location'  => 'Northern Lights Athletic Field • Sparks, NV',
+            'amenities' => 'Youth QB academy, agility ladders, leadership huddles',
+        ),
+        array(
+            'name'      => 'Sparks Falcons',
+            'location'  => 'Golden Eagle Regional Park • Sparks, NV',
+            'amenities' => 'Route spacing lab, team communication drills, parent lounge',
+        ),
+        array(
+            'name'      => 'Meadow Mustangs',
+            'location'  => 'Idlewild Youth Fields • Reno, NV',
+            'amenities' => 'Zone-versus-man classrooms, confidence circles, film chalk talk',
+        ),
+        array(
+            'name'      => 'Desert Dash',
+            'location'  => 'Moana Stadium Turf • Reno, NV',
+            'amenities' => 'Jet motion walkthroughs, positive mindset board, skill combine stations',
+        ),
+        array(
+            'name'      => 'Canyon Cougars',
+            'location'  => 'Shadow Mountain Fields • Reno, NV',
+            'amenities' => 'Flag pulling fundamentals, pursuit lanes, growth tracking charts',
         ),
     ),
 );
